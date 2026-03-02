@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>HTTP Client</title>
+    <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h1>Сбор информации из интернета</h1>
+
+        <section class="card">
+            <h2>1) Найти URL по ключевому слову</h2>
+            <div class="row">
+                <input id="kw" placeholder="Введите ключевое слово (например: news)" />
+                <button id="btnSearch">Искать</button>
+            </div>
+            <div id="urls" class="list"></div>
+            <div id="searchError" class="error"></div>
+        </section>
+
+        <section class="card">
+            <h2>2) Скачать выбранный URL</h2>
+            <div id="selectedUrl" class="muted">URL не выбран</div>
+            <div class="row">
+                <button id="btnDownload" disabled>Скачать</button>
+                <button id="btnClear" class="secondary">Очистить LocalStorage</button>
+            </div>
+
+            <div class="progressWrap">
+                <div class="muted" id="sizeInfo"></div>
+                <progress id="progress" value="0" max="100"></progress>
+                <div class="muted" id="progressText"></div>
+            </div>
+
+            <div id="downloadError" class="error"></div>
+        </section>
+
+        <section class="card">
+            <h2>3) Offline: загруженный контент</h2>
+            <div id="saved" class="list"></div>
+            <h3>Просмотр</h3>
+            <pre id="viewer"></pre>
+        </section>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>

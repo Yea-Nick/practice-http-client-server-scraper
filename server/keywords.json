@@ -1,0 +1,72 @@
+{
+    "news": [
+        "https://ria.ru",
+        "https://www.interfax.ru",
+        "https://tass.ru",
+        "https://www.kommersant.ru",
+        "https://www.rbc.ru"
+    ],
+    "technology": [
+        "https://habr.com/ru/all/",
+        "https://vc.ru/tech",
+        "https://3dnews.ru",
+        "https://www.ixbt.com",
+        "https://www.cnews.ru"
+    ],
+    "science": [
+        "https://nplus1.ru",
+        "https://indicator.ru",
+        "https://postnauka.ru",
+        "https://www.elementy.ru",
+        "https://scientificrussia.ru"
+    ],
+    "education": [
+        "https://openedu.ru",
+        "https://stepik.org",
+        "https://education.yandex.ru",
+        "https://universarium.org",
+        "https://skillfactory.ru"
+    ],
+    "economics": [
+        "https://www.rbc.ru/economics",
+        "https://www.vedomosti.ru",
+        "https://www.finmarket.ru",
+        "https://expert.ru",
+        "https://www.audit-it.ru"
+    ],
+    "culture": [
+        "https://arzamas.academy",
+        "https://culture.ru",
+        "https://www.colta.ru",
+        "https://theoryandpractice.ru",
+        "https://www.afisha.ru"
+    ],
+    "programming": [
+        "https://developer.mozilla.org/en-US/docs/Web/HTTP",
+        "https://nodejs.org/en/docs",
+        "https://docs.github.com/en",
+        "https://www.w3.org/TR/",
+        "https://learn.microsoft.com/en-us/"
+    ],
+    "javascript": [
+        "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+        "https://javascript.info",
+        "https://nodejs.org/en/docs/guides",
+        "https://www.ecma-international.org/publications-and-standards/standards/ecma-262/",
+        "https://v8.dev/docs"
+    ],
+    "linux": [
+        "https://www.kernel.org",
+        "https://www.linuxfoundation.org",
+        "https://www.linux.org",
+        "https://wiki.archlinux.org",
+        "https://help.ubuntu.com"
+    ],
+    "security": [
+        "https://owasp.org",
+        "https://www.cisa.gov",
+        "https://www.kaspersky.com/blog",
+        "https://www.securityweek.com",
+        "https://www.sans.org/blog/"
+    ]
+}
